@@ -1,3 +1,9 @@
+pip install streamlit
+pip install requests
+pip install numpy
+pip install PyPDF2
+pip install nltk
+pip install string
 import streamlit as st
 import requests
 import numpy as np
