@@ -1,15 +1,3 @@
-# update pip and tooling (optional but recommended)
-pip3 install --upgrade pip setuptools wheel
-
-# install packages
-pip3 install streamlit requests numpy PyPDF2 nltk
-
-# download common NLTK data (adjust sets as needed)
-python3 -m nltk.downloader punkt wordnet stopwords averaged_perceptron_tagger
-
-# verify installations
-python3 -c "import streamlit, requests, numpy, PyPDF2, nltk, string; print('OK')"
-streamlit --version
 import streamlit as st
 import requests
 import numpy as np
